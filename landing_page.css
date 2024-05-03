@@ -1,0 +1,252 @@
+ /* CSS files */
+
+body{
+    background:linear-gradient(rgb(42, 94, 139),rgb(253, 253, 239));
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+.navbar{
+    background-color: rgb(253, 253, 239);
+    border-bottom: 2px solid rgb(30, 72, 178);
+}
+
+.navbar-nav li{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.navbar-nav li:hover{
+    font-size: 17px;
+}
+
+.d-flex{
+margin-left: 20px;
+margin-top: 5px;
+}
+
+.d-flex button{
+    background-color: white;
+    border: 2px solid rgb(30, 72, 178);
+    color: rgb(30, 72, 178);
+    font-weight: bold;
+}
+
+.d-flex button:hover{
+background-color: green;  
+    border: 2px solid rgb(30, 72, 178);
+    color: rgb(255, 255, 255);
+}
+
+#navbar-btn{
+    margin-left: 30px;
+    background-color: white;
+    border: 2px solid rgb(30, 72, 178);
+    color: rgb(30, 72, 178);
+    font-weight: bold; 
+    margin-top: 5px;  
+}
+
+#navbar-btn:hover{
+    background-color: green;  
+    border: 2px solid rgb(30, 72, 178);
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand{
+    color: rgb(212, 223, 3);
+    font-weight: bold;
+    font-size: 20px; 
+    margin-right: 150px;
+}
+
+main{
+    margin-top: 130px;
+}
+
+main h1{
+    color: rgb(5, 239, 5);
+    align-items: center;
+    width: 335px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-shadow: 2px 2px green;
+}
+
+.main-first{ 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+#carouselExampleInterval{
+    max-width: 800px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.carousel-item {
+    max-height: 400px;
+    max-width: 800px;
+}
+.carousel-item img {
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover; 
+}
+
+.row{
+    max-width: 300px;
+}
+
+.list-group{
+    width: 100px;
+}
+
+.list-group-item{
+    background-color: white;
+    margin-top: 4px;
+    box-shadow: 4px 4px rgb(0,0,0,0.5);
+    font-weight: bold;
+}
+
+.list-group-item:hover{
+    background-color: green;
+    color: white;
+}
+
+.main-second{
+height: auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 30px;
+align-items: center;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.main-second-about{
+    margin-top: 20px;
+    display: flex;
+    height: 300px;
+    max-width: 700px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(images/about.webp);
+
+}
+
+.main-second-about h2{
+    color: white;
+    font-weight: bold;
+}
+
+.main-second-about p{
+    color: white;
+}
+
+.main-third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.main-forth{
+    margin-top: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-bottom: 20px;
+}
+
+.order-head{
+    padding-top: 50px;
+    color: black;
+    margin: auto;
+    max-width:400px;
+    align-items: center;
+}
+
+.main-forth div{
+    border: 2px solid white;
+    max-width: 40vw;
+}
+
+.main-forth button{
+    color: black;
+    background-color: white;
+    border: 2px solid blue;
+    font-weight: bold;
+}
+
+.main-forth button:hover{
+    color: white;
+    background-color: green;
+}
+
+.main-review{
+    margin: auto;
+    align-items: center;
+    font-weight: bold;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.mb-3{
+    max-width:400px;
+    align-items: center;
+    margin: auto;
+}
+
+.review-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#review-btn{
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    border: 2px solid blue;
+    color:blue;
+    font-weight: bold;
+}
+
+#review-btn:hover{
+    background-color: green;
+    color:white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(253, 253, 239);
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+}
+
+.footer-png{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 950px) {
+    .list-group {
+       width: auto;
+       display: flex;
+       flex-direction: row;
+       margin-bottom: 20px;
+    }
+}
